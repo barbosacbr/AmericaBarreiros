@@ -10,7 +10,46 @@ header{
     height: 110px;
     width:100%;
     background-color: brown;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+
+.headertop{
+    display: flex;
+    width: 45%;
+}
+
+.lista{
+    display: flex;
+    width: 45%;
+    flex-direction: row;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+
+}
+
+li{
+    padding: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 section{
     height: 470px;
