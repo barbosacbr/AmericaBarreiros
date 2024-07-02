@@ -3,56 +3,54 @@
 }
 
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
 }
 
 header{
     height: 110px;
     width:100%;
-    background-color: brown;
+    background-color: rgb(255, 0, 0); ;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-image: url("img/odecima.png");
+    background-position: 0px;
 }
 
-.headertop{
-    display: flex;
-    width: 45%;
-}
 
 .lista{
     display: flex;
-    width: 45%;
+    width: 100%;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 ul{
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
 
 }
 
 li{
-    padding: 50px;
+    padding: 60px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+a{
+        color:white;
+        text-decoration: none;
+        padding: 10px;
+}
+a:hover{
+    background-color: white;
+    color:rgb(255, 0, 0);
+    padding: 10px;
+}
 section{
-    height: 470px;
+    height: 438px;
     width:100%;
     background-color: rgb(255, 0, 0);  
 }
@@ -60,6 +58,11 @@ section{
 footer{
     height: 63px;
     width: 100%;
-    background-color: rgb(104, 0, 0);
+    background-color: rgb(255, 0, 0);
+}
+
+.america{
+    width: 70px;
+    align-items: center;
 }
 
