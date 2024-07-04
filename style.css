@@ -65,4 +65,35 @@ footer{
     width: 70px;
     align-items: center;
 }
+.historia1{
+    width:100%;
+    height: 700px;
+}
+.sectionOficial{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 500px auto;
+    margin-top: 50px;
+    background-image: url("img/america6628.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 100%;
+    margin: 0;
+    background-position: 0px 0px;
+    height: 615px;
+    
+
+}
+.sectionHistoria{
+    color: white;
+    
+}
+.textoHistoria{
+    margin: 0 30px;
+    width: 50%;
+    color: white;
+    
+}
 
