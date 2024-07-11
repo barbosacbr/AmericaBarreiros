@@ -104,40 +104,40 @@ footer{
     background-size: 100%;
     margin: 0;
     background-position: 0px 0px;
-    height: 615px;
+    height: 32vw;
 }
 .sectionStore{
     width: 100%;
-    height:350px;
+    height:426PX;
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    background-color: rgb(255, 255, 255);
-
+    background-image: url("img/MARCDAGUAAA.png");
 }
 
 .teste1{
   
     height:350px;
-    width: 20%;
-    /* background-image: url("img/fotocamisavermelha.png"); */
+    width: 33%;
     background-color:rgba(255, 99, 71, 0,5);
     text-align: center;
 }
 
 .textStore{
-    color: white;
+    color: rgb(231, 62, 62);
     font-size: 15px;
+
 }
 
 .tamanhoImg{
-    width: 350px;
+    width: 350PX
 }
 
 .teste2{
   
     height:350px;
-    width: 20%;
+    width: 33%;
+    text-align: center;
+
 
 /*     background-image: url("img/fotocamisabranca.png");
  */}
@@ -145,10 +145,18 @@ footer{
 .teste3{
   
     height:350px;
-    width: 20%;
+    width: 26.5%;
+    text-align: center;
+
 /*     background-image: url("img/fotocamisatreino.png"); */
 }
 .tamanhoImg3{
     width: 280px;
+}
+.sejaSocio{
+
+}
+.formularioSocio{
+    
 }
 
