@@ -55,10 +55,12 @@ section{
     background-color: rgb(255, 0, 0);  
 }
 
-footer{
-    height: 63px;
-    width: 100%;
-    background-color: rgb(255, 0, 0);
+footer {
+    background-color: #FF0000;
+    color: #FFFFFF;
+    text-align: center;
+    height: 80px;
+    width:100%
 }
 
 .america{
@@ -153,10 +155,66 @@ footer{
 .tamanhoImg3{
     width: 280px;
 }
+.sectionSocio{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+}
 .sejaSocio{
+    background-color: white;
+    width: 45%;
+    height: 500px;
 
 }
 .formularioSocio{
-    
+    background-color: white;
+    width: 45%;
+    height: 500px;
+    border-radius: 20px;
+    background-color: #B80200;
+    justify-content: column;
 }
+input{
+    border-radius: 10px;
+    border: solid 0px;
+    font-weight: bold;
+    color:#B80200;
+    padding: 10px 10px;
+}
+::placeholder{
+    color:#B80200;
+    font-weight: bold;
+    justify-content: center;
 
+}
+.nomeSocio{
+    width: 300px;
+}
+.sobrenomeSocio{
+    width: 300px;
+
+}
+.emailSocio{
+    width: 300px;
+
+}
+.telefoneSocio{
+    width: 300px;
+
+}
+.enderecoSocio{
+    width: 610px;
+}
+.nascimentoSocio{
+    width: 300px;
+
+}
+.cpfSocio{
+    width: 300px;
+
+}
+h3{
+    color: white;
+    font-weight: bold;
+}
