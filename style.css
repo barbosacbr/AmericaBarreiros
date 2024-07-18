@@ -42,12 +42,15 @@ li{
 a{
         color:white;
         text-decoration: none;
-        padding: 10px;
+        padding: 10px 20px;
 }
 a:hover{
-    background-color: white;
-    color:rgb(255, 0, 0);
-    padding: 10px;
+    background-color: #B80200;
+    color:rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 15px;
+
+    
 }
 section{
     height: 438px;
@@ -56,8 +59,8 @@ section{
 }
 
 footer {
-    background-color: #FF0000;
-    color: #FFFFFF;
+    background-color: #9b0000;
+    color: #ffffff;
     text-align: center;
     height: 80px;
     width:100%
@@ -89,6 +92,11 @@ footer {
 }
 .sectionHistoria{
     color: white;
+    margin-top: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal
     
 }
 .textoHistoria{
@@ -127,6 +135,11 @@ footer {
 .textStore{
     color: rgb(231, 62, 62);
     font-size: 15px;
+    margin-top: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal
 
 }
 
@@ -162,9 +175,15 @@ footer {
     height: 80vh;
 }
 .sejaSocio{
-    background-color: white;
+    background-color: rgb(255, 0, 0);
     width: 45%;
     height: 500px;
+    font-size: 100px;
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal
 
 }
 .formularioSocio{
@@ -173,7 +192,9 @@ footer {
     height: 500px;
     border-radius: 20px;
     background-color: #B80200;
-    justify-content: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 input{
     border-radius: 10px;
@@ -217,4 +238,46 @@ input{
 h3{
     color: white;
     font-weight: bold;
+    margin: 0;
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal
 }
+.proximoSocio{
+    width: 100%
+}
+
+a{
+    margin-top: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal
+
+}
+p.textoHistoria{
+    margin-top: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal 
+}
+.section2{
+    background-color: rgb(255, 0, 0);
+    height: 330px;
+
+}
+
+.americaNoticias{
+    position: relative; 
+    top: 180px  ;
+}
+
+
+
+
