@@ -277,7 +277,15 @@ p.textoHistoria{
     position: relative; 
     top: 180px  ;
 }
+.section3{
+    background-color: rgb(255, 0, 0);
+    height: 200px;
 
+}
+.fotoHistoria{
+    position: relative; 
+    top: 0px  ;
+}
 
 
 
